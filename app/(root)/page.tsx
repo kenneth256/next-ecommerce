@@ -1,12 +1,13 @@
 import ProductList from '@/components/shared/ProductList'
-import sampleData from '@/lib/data'
+import { getLatestProducts } from '@/lib/actions/product.actions'
 import React from 'react'
 
-const Home = () => {
+const Home = async () => {
+  const latest = await getLatestProducts()
   return (
     <div className='space-y-8'>
-      <h2>Latest Products</h2>
-      <ProductList data={sampleData.products} />
+     
+      <ProductList data={latest} title='Latest Products' />
     </div>
   )
 }
