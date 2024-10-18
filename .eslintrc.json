@@ -1,0 +1,8 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript", "eslint:recommended"],
+  "rules": {
+    "no-console": "off", // Example: Disable no-console rule
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
