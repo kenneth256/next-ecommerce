@@ -1,9 +1,12 @@
 {
     "cSpell.words": [
+        "clsx",
+        "esbuild",
         "Lacoste",
         "Shadcn",
         "signin",
         "tailwindcss",
-        "tricolour"
+        "tricolour",
+        "vercel"
     ]
 }
